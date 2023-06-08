@@ -148,17 +148,24 @@ font-family: 'Roboto', sans-serif;
 }
 .thanks{
     position: relative;
-    top:40px;
-    left:90px;
-    width:180px;
-    height:30px;
+    top:50px;
+    left:100px;
+    width:160px;
+    height:24px;
     background-color: hsl(216, 18%, 25%);
     border-radius: 30px;
-    padding-bottom: 7px;
-    padding-right: 8px;
-    
-
+   
 }
 .thanks p{
     color:hsl(25, 97%, 53%);
+    position: relative;
+    top:2px;
+    left:15px;
+    
 }
+.second-page h2{
+    position: relative;
+    top:40px;
+    left:120px;
+}
+
