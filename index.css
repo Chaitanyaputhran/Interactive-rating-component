@@ -1,7 +1,10 @@
-body{
+@media(min-width:375px){
+    body{
     width:1440px;
     height:100%;
     background-color: hsl(216, 12%, 8%);
+    
+   
 }
 .container{
     width:360px;
@@ -84,6 +87,10 @@ font-family: 'Roboto', sans-serif;
 .button:hover{
     background-color: hsl(25, 97%, 53%);
 }
+.button.clicked {
+    background-color: hsl(216, 12%, 54%); /* Adjust the color as needed */
+    
+  }
 .submit{
     position: relative;
     width:310px;
@@ -118,19 +125,15 @@ font-family: 'Roboto', sans-serif;
     position: relative;
     top:50px;
     left:100px;
-    width:160px;
+    width:170px;
     height:24px;
     background-color: hsl(216, 18%, 25%);
     border-radius: 30px;
+    color:hsl(25, 97%, 53%);
+    text-align: center;
    
 }
-.thanks p{
-    color:hsl(25, 97%, 53%);
-    position: relative;
-    top:2px;
-    left:15px;
-    
-}
+
 .second-page h2{
     position: relative;
     top:40px;
@@ -143,4 +146,153 @@ font-family: 'Roboto', sans-serif;
     width:300px;
     left:20px;
 }
-
+}
+@media(max-width:375px){
+    body{
+        width:375px;
+        height:100%;
+        background-color: hsl(216, 12%, 8%);
+        
+       
+    }
+    .container{
+        width:330px;
+        height:360px;
+        position: relative;
+        background-color:hsl(213, 19%, 18%);
+        border-radius: 20px;
+        top:200px;
+        left:40%;
+    }
+    .hide{
+        display:none;
+    }
+    .first-page{
+       
+            width:330px;
+            height:360px;
+            position: relative;
+            border-radius: 20px;
+            top:0px;
+            left:0%;
+       
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:40px;
+        height:40px;
+        background-color: hsl(216, 18%, 25%);
+        border-radius: 100px;
+        position:relative;
+        top: 20px;
+        left:20px;
+    }
+    h2{
+        font-family: 'Overpass', sans-serif;
+        display:inline-flex;
+        color: hsl(0, 0%, 100%);
+        width:330px;
+        position: relative;
+        top:30px;
+        left:20px;
+    }
+    p{
+        font-size: 13px;
+       
+    font-family: 'Roboto', sans-serif;
+        top:10px;
+        left:20px;
+        display:flex;
+        position: relative;
+        color: hsl(0, 0%, 100%);
+        line-height:20px;
+    }
+    .rating{
+        height:50px;
+        width:360px;
+        position:absolute;
+        top:225px;
+    }
+    .button{
+        background-color: hsl(216, 18%, 25%);
+        width:50px;
+        height:50px;
+        border-radius: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+        border: none;
+        color: hsl(217, 12%, 63%);
+        position: relative;
+        left:10px;
+     
+       
+    }
+    .button + .button {
+        margin-left: 10px;
+      }
+    
+    .button:hover{
+        background-color: hsl(25, 97%, 53%);
+    }
+    .button.clicked {
+        background-color: hsl(216, 12%, 54%); /* Adjust the color as needed */
+        
+      }
+    .submit{
+        position: relative;
+        width:310px;
+        height: 35px;
+        background-color:  hsl(25, 97%, 53%);
+        top:100px;
+        left:10px;
+        border-radius: 20px;
+        color:hsl(0, 0%, 100%) ;
+        border:none;
+    }
+    .submit:hover{
+        background-color:  hsl(0, 0%, 100%);
+        color:hsl(25, 97%, 53%);
+    }
+    .second-page{
+       
+        width:330px;
+        height:360px;
+        position: relative;
+        border-radius: 20px;
+        top:0px;
+        left:0%;
+    
+    }
+    .second-page img{
+        position: relative;
+        top:40px;
+        left:70px;
+    }
+    .thanks{
+        position: relative;
+        top:50px;
+        left:80px;
+        width:170px;
+        height:24px;
+        background-color: hsl(216, 18%, 25%);
+        border-radius: 30px;
+        color:hsl(25, 97%, 53%);
+        text-align: center;
+       
+    }
+    
+    .second-page h2{
+        position: relative;
+        top:40px;
+        left:100px;
+    }
+    .message{
+        position: relative;
+        top:20px;
+        flex-wrap: wrap;
+        width:300px;
+        left:10px;
+    }
+}

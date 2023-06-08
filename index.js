@@ -1,12 +1,19 @@
 const sub=document.querySelector(".submit");
 const first=document.querySelector(".first-page");
 const second=document.querySelector(".second-page");
-const text=document.querySelector(".thanks")
+const text=document.querySelector(".thanks");
+const buttons = document.querySelectorAll(".button");
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    button.classList.add('clicked');
+  });
+});
 second.classList.add("hide");
 let number
 
 function one(){
     number=1
+  
     return number
 }
 function two(){
@@ -28,7 +35,9 @@ function five(){
 sub.addEventListener("click",function(){
     second.classList.remove("hide");
     first.classList.add("hide");
-    text.innerHTML("")
+    text.innerText = "You selected"+" "+number+" "+"out of 5"
+    
+   
 
 })
 
