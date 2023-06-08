@@ -12,6 +12,19 @@ body{
     top:200px;
     left:40%;
 }
+.hide{
+    display:none;
+}
+.first-page{
+   
+        width:360px;
+        height:360px;
+        position: relative;
+        border-radius: 20px;
+        top:0px;
+        left:0%;
+   
+}
 .logo{
     display: flex;
     justify-content: center;
@@ -100,6 +113,9 @@ font-family: 'Roboto', sans-serif;
     border:none;
     color:hsl(0, 0%, 100%); 
 }
+.rating button:hover{
+    background-color: hsl(25, 97%, 53%);
+}
 .submit{
     position: relative;
     width:310px;
@@ -110,4 +126,23 @@ font-family: 'Roboto', sans-serif;
     border-radius: 20px;
     color:hsl(0, 0%, 100%) ;
     border:none;
+}
+.submit:hover{
+    background-color:  hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+}
+.second-page{
+   
+    width:360px;
+    height:360px;
+    position: relative;
+    border-radius: 20px;
+    top:0px;
+    left:0%;
+
+}
+.second-page img{
+    position: relative;
+    top:40px;
+    left:80px;
 }
