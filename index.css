@@ -144,5 +144,21 @@ font-family: 'Roboto', sans-serif;
 .second-page img{
     position: relative;
     top:40px;
-    left:80px;
+    left:90px;
+}
+.thanks{
+    position: relative;
+    top:40px;
+    left:90px;
+    width:180px;
+    height:30px;
+    background-color: hsl(216, 18%, 25%);
+    border-radius: 30px;
+    padding-bottom: 7px;
+    padding-right: 8px;
+    
+
+}
+.thanks p{
+    color:hsl(25, 97%, 53%);
 }
